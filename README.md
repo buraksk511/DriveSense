@@ -36,6 +36,17 @@ DriveSense is a next-generation telematics analytics platform that processes veh
 
 <img width="1920" height="594" alt="Ekran Görüntüsü (11)" src="https://github.com/user-attachments/assets/b017ca7d-d31d-4e2f-b802-5aeb36c509ce" />
 
+### ⚙️ Hardware Architecture & Data Acquisition
+To collect raw, high-frequency real-world telemetry data, a custom field-ready hardware data logger was built. The system is housed in a custom 3D-printed enclosure for secure in-vehicle testing. 
+
+**Hardware Components:**
+* **ESP32 Microcontroller:** The core processor handling sensor data.
+* **MPU-6050 (IMU):** Captures 6-axis acceleration and gyroscope data for hard braking, acceleration, and cornering detection.
+* **NEO-6M GPS:** Tracks vehicle speed, route, and location.
+* **Micro SD Card Module:** Enables offline data logging during drives.
+
+<img width="2000" height="1125" alt="WhatsApp Image 2026-08-19 at 18 52 23" src="https://github.com/user-attachments/assets/0f200a96-0a41-4fc3-90b4-a4f41ea29c04" />
+
 ## 🛠️ Architecture and Technologies
 
 - **UI Framework:** Streamlit
@@ -160,6 +171,26 @@ DriveSense, araç telemetri verilerini (İvmeölçer, Jiroskop, GPS) işleyerek 
 
 <img width="1456" height="348" alt="WhatsApp Image 2026-09-03 at 20 38 34" src="https://github.com/user-attachments/assets/6ddd0998-043e-4001-94f3-4bfa4f7633b1" />
 <img width="1426" height="690" alt="WhatsApp Image 2026-09-03 at 20 38 34 (2)" src="https://github.com/user-attachments/assets/50ff724f-f426-49f9-89d2-c249fc84df03" />
+
+### ⚙️ Donanım Mimarisi ve Veri Toplama
+Gerçek dünya telemetri verilerini ham ve yüksek frekansta toplamak için sahaya özel bir donanım (Data Logger) geliştirildi. Sistem, güvenli araç içi testleri yapabilmek adına 3D yazıcı ile üretilmiş özel bir muhafazaya yerleştirildi.
+
+**Donanım Bileşenleri:**
+* **ESP32 Mikrodenetleyici:** Sensör verilerini işleyen ana işlemci.
+* **MPU-6050 (IMU):** Sert fren, ani hızlanma ve viraj tespiti için 6 eksenli ivme ve jiroskop verisi sağlar.
+* **NEO-6M GPS:** Araç hızı, rota ve konum takibi yapar.
+* **Micro SD Kart Modülü:** Sürüş esnasında çevrimdışı (offline) telemetri kaydı tutulmasını sağlar.
+
+### ⚙️ Donanım Mimarisi ve Veri Toplama
+Gerçek dünya telemetri verilerini ham ve yüksek frekansta toplamak için sahaya özel bir donanım (Data Logger) geliştirildi. Sistem, güvenli araç içi testleri yapabilmek adına 3D yazıcı ile üretilmiş özel bir muhafazaya yerleştirildi.
+
+**Donanım Bileşenleri:**
+* **ESP32 Mikrodenetleyici:** Sensör verilerini işleyen ana işlemci.
+* **MPU-6050 (IMU):** Sert fren, ani hızlanma ve viraj tespiti için 6 eksenli ivme ve jiroskop verisi sağlar.
+* **NEO-6M GPS:** Araç hızı, rota ve konum takibi yapar.
+* **Micro SD Kart Modülü:** Sürüş esnasında çevrimdışı (offline) telemetri kaydı tutulmasını sağlar.
+
+<img width="2000" height="1125" alt="WhatsApp Image 2026-08-19 at 18 52 23" src="https://github.com/user-attachments/assets/387bac4a-0145-4273-aa6f-4ffcf09ed32a" />
 
 ## 🛠️ Mimari ve Teknolojiler
 

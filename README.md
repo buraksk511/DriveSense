@@ -181,15 +181,6 @@ Gerçek dünya telemetri verilerini ham ve yüksek frekansta toplamak için saha
 * **NEO-6M GPS:** Araç hızı, rota ve konum takibi yapar.
 * **Micro SD Kart Modülü:** Sürüş esnasında çevrimdışı (offline) telemetri kaydı tutulmasını sağlar.
 
-### ⚙️ Donanım Mimarisi ve Veri Toplama
-Gerçek dünya telemetri verilerini ham ve yüksek frekansta toplamak için sahaya özel bir donanım (Data Logger) geliştirildi. Sistem, güvenli araç içi testleri yapabilmek adına 3D yazıcı ile üretilmiş özel bir muhafazaya yerleştirildi.
-
-**Donanım Bileşenleri:**
-* **ESP32 Mikrodenetleyici:** Sensör verilerini işleyen ana işlemci.
-* **MPU-6050 (IMU):** Sert fren, ani hızlanma ve viraj tespiti için 6 eksenli ivme ve jiroskop verisi sağlar.
-* **NEO-6M GPS:** Araç hızı, rota ve konum takibi yapar.
-* **Micro SD Kart Modülü:** Sürüş esnasında çevrimdışı (offline) telemetri kaydı tutulmasını sağlar.
-
 <img width="2000" height="1125" alt="WhatsApp Image 2026-08-19 at 18 52 23" src="https://github.com/user-attachments/assets/387bac4a-0145-4273-aa6f-4ffcf09ed32a" />
 
 ## 🛠️ Mimari ve Teknolojiler

@@ -53,7 +53,7 @@ To collect raw, high-frequency real-world telemetry data, a custom field-ready h
 - **Data & Signal Processing:** Pandas, NumPy, SciPy (`signal.butter`, `signal.filtfilt`, `signal.find_peaks`)
 - **Data Visualization:** Plotly Graph Objects, Folium, Streamlit-Folium
 - **Mapping & Speed Limit Service:** TomTom Reverse Geocode API
-- **AI Engine:** Google Generative AI (gemini-1.5-flash)
+- **AI Engine:** Google Generative AI
 - **Database:** SQLite3
 
 ## 🚀 Installation and Usage
@@ -189,7 +189,7 @@ Gerçek dünya telemetri verilerini ham ve yüksek frekansta toplamak için saha
 * **Veri & Sinyal İşleme:** Pandas, NumPy, SciPy (`signal.butter`, `signal.filtfilt`, `signal.find_peaks`)
 * **Görselleştirme:** Plotly Graph Objects, Folium, Streamlit-Folium
 * **Harita & Limit Servisi:** TomTom Reverse Geocode API
-* **Yapay Zekâ Motoru:** Google Generative AI (gemini-1.5-flash)
+* **Yapay Zekâ Motoru:** Google Generative AI 
 * **Veritabanı:** SQLite3
 
 ## 🚀 Kurulum ve Çalıştırma
